@@ -1,0 +1,68 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Johnny",
+            "email": "johnny@gmail.com",
+            "profile": "https://source.unsplash.com/random",
+            "status": "active",
+            "role": "member"
+        },
+        {
+            "id": 2,
+            "name": "Sonny",
+            "email": "sonny@gmail.com",
+            "profile": "https://source.unsplash.com/random",
+            "status": "inactive",
+            "role": "member"
+        },
+        {
+            "id": 3,
+            "name": "Sandy",
+            "email": "sandy@gmail.com",
+            "profile": "https://source.unsplash.com/random",
+            "status": "inactive",
+            "role": "owner"
+        },
+        {
+            "id": 4,
+            "name": "Michael",
+            "email": "michael@gmail.com",
+            "profile": "https://source.unsplash.com/random",
+            "status": "active",
+            "role": "owner"
+        },
+        {
+            "id": 5,
+            "name": "James",
+            "email": "michael@gmail.com",
+            "profile": "https://source.unsplash.com/random",
+            "status": "active",
+            "role": "owner"
+        },
+        {
+            "id": 6,
+            "name": "Ezekiel",
+            "email": "Ezekiel@gmail.com",
+            "profile": "https://source.unsplash.com/random",
+            "status": "inactive",
+            "role": "owner"
+        },
+        {
+            "id": 7,
+            "name": "Ifeanyi",
+            "email": "Ifeanyi@gmail.com",
+            "profile": "https://source.unsplash.com/random",
+            "status": "active",
+            "role": "owner"
+        },
+        {
+            "id": 8,
+            "name": "Mandela",
+            "email": "Mandela@gmail.com",
+            "profile": "https://source.unsplash.com/random",
+            "status": "active",
+            "role": "owner"
+        }
+    ]
+}

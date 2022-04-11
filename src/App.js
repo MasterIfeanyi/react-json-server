@@ -38,7 +38,8 @@ function App() {
 
   return (
     <>
-      <Header />
+      <div className="App">
+        <Header />
         <main className="section">
             <div className="cont">
               <h1 className="text-center text-4xl text-indigo-400 py-12">JSON Server</h1>
@@ -50,7 +51,8 @@ function App() {
               <Table listItems={listItems} />
             </div>
         </main>
-      <Footer />
+        <Footer />
+      </div>
     </>
   );
 }

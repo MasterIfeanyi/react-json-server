@@ -21,6 +21,10 @@ body {
 
 #root {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .App {
@@ -29,8 +33,9 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 1rem 0.5rem;
     border: 1px solid mediumblue;
+    margin: 0;
+    padding: 0;
 }
 
 .cont{
@@ -44,7 +49,8 @@ body {
 .section {
   border: 1px solid blue;
   flex: 1;
-  min-height: auto;
+  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -52,6 +58,7 @@ body {
   align-items: center;
   margin: 0;
   background-color: whitesmoke;
+  padding: 0 2rem 2rem 2rem;
 }
 
 

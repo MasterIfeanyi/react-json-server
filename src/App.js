@@ -40,8 +40,8 @@ function App() {
     <>
       <div className="App">
         <Header />
-          <section className="">
-              <div className="container">
+          <section className="section">
+              <div className="cont">
                 <h1 className="text-center text-4xl text-indigo-400 py-12">JSON Server</h1>
                 <Form
                   setKey={setKey}

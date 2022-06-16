@@ -2,6 +2,7 @@ import Table from "./components/Table"
 import Form from "./components/Form"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
+import WelcomeNote from "./components/WelcomeNote";
 import './App.css';
 import { useState, useEffect } from "react"
 import axios from "axios"
@@ -37,12 +38,12 @@ function App() {
 
 
   return (
-    <>
-      <div className="App">
-        <Header />
-        <main className="section">
-            <div className="cont">
-              <h1 className="text-center text-4xl text-indigo-400 py-12">JSON Server</h1>
+    <main className="App">
+      <Header />
+        <section className="section">
+          <div className="container">
+            <div className="row">
+              <WelcomeNote />
               <Form
                 setKey={setKey}
                 setProperty={setProperty}
@@ -50,10 +51,10 @@ function App() {
               />
               <Table listItems={listItems} />
             </div>
-        </main>
-        <Footer />
-      </div>
-    </>
+          </div>
+        </section>
+      <Footer />
+    </main>
   );
 }
 

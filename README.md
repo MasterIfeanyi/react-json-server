@@ -2,7 +2,7 @@
 
 This project allows users to view certain parts of a database depending on the query parameter.
 
-I created the project with json-server.
+I created the project with json-server. Click the link [json-server](https://ifeanyi-react-jsonserver.netlify.app/) to view it.
 
 ## React
 

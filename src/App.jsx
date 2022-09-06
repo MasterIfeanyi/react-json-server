@@ -20,7 +20,7 @@ function App() {
     const buildRequestUrl = async () => {
 
     try {
-      const { data } = await axios.get(`https://ifeanyi-json-server-database.herokuapp.com/users?${key}=${property}`)
+      const { data } = await axios.get(`https://ifeanyi-json-server-database.glitch.me/users?${key}=${property}`)
 
       setListItems(data)
 
